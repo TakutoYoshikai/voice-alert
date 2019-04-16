@@ -1,0 +1,17 @@
+{
+  "name": "mom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.7.0",
+    "simplayer": "0.0.8",
+    "voicetext": "0.0.7"
+  }
+}
