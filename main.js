@@ -30,6 +30,9 @@ new CronJob("0 * * * * *", () => {
   var minute = date.getMinutes();
   var hour = date.getHours();
   var key = hour + ":" + minute;
+  if (!schedule[key]) {
+	return;
+  }
   speak(schedule[key]);
 }, null, true);
 
